@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Lobster&display=swap");
+
+.homelink {
+	margin: 0 auto 100px auto;
+	text-align: center;
+	font-family: Lobster;
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 1.3;
+	color: rgb(252, 7, 7);
+	text-shadow: 5px 5px 5px rgb(87, 86, 86);
+}
+.homelink a:hover {
+	color: rgb(233, 4, 4);
+	text-shadow: 5px 5px 5px rgb(8, 8, 8);
+}
+.homelink a:focus {
+	outline: none;
+	text-shadow: 5px 5px 5px rgb(8, 8, 8);
+}
+.homelink a:active {
+	padding: 4px 0 46px 5px;
+	text-shadow: 1px 1px 5px rgb(8, 8, 8);
+}
+.maket {
+	display: none;
+}
+.maket:target {
+	display: block;
+}
+/*========================================================*/
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.maket {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #424551;
+	margin-bottom: 100px;
+}
+.about {
+	margin-bottom: 180px;
+}
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin-bottom: 40px;
+}
+.textblock p {
+	margin-bottom: 48px;
+}
+.text {
+	line-height: 160%;
+}
+.listblock h2 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1e212c;
+	margin-bottom: 24px;
+}
+.list li {
+	line-height: 160%;
+	padding-left: 32px;
+	background: url("../img/Vector.png") 0 6px no-repeat;
+}
+.list li:not(:last-child) {
+	margin-bottom: 4px;
+}
+.cody {
+	padding: 20px 0;
+}
+.head {
+	margin-bottom: 32px;
+}
+.profession {
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+	margin-bottom: 8px;
+}
+.name {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin-bottom: 16px;
+}
+.position {
+	font-size: 20px;
+	line-height: 150%;
+	color: #787a80;
+}
+.achievement {
+	font-weight: 700;
+	line-height: 160%;
+	margin-bottom: 32px;
+}
+.achievement li:not(:last-child) {
+	margin-bottom: 4px;
+}
+.achievement li:first-child::before {
+	content: "";
+	background: url("../img/Star.png") 0 2px no-repeat;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	margin-right: 9px;
+}
+.achievement li:nth-child(2)::before {
+	content: "";
+	background: url("../img/Vectorplay.png") 0 2px no-repeat;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	margin-right: 9px;
+}
+.achievement li:last-child::before {
+	content: "";
+	background: url("../img/Vectorman.png") 0 2px no-repeat;
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	margin-right: 9px;
+}
+
+/*========================================================*/
+.homework {
+	padding: 50px 0;
+}
+.block1 {
+	background-color: #fce304;
+	margin-bottom: 50px;
+}
+.img {
+	padding: 50px;
+	max-width: 100%;
+}
+.img img {
+	opacity: 0.5;
+	width: 30%;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.img a {
+	display: block;
+	text-align: center;
+}
+.img a:not(:last-child) {
+	margin-bottom: 20px;
+}
+.img img:hover {
+	opacity: 1;
+	box-shadow: 5px 5px 20px rgb(2, 130, 250), -5px -5px 20px rgb(2, 130, 250);
+}
+.img img:active {
+	width: 100%;
+}
+
+.block2__list {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	color: #fd7301;
+}
+.block2__list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.block2__list li:first-child::before {
+	content: "";
+	background: url("../img/2.png") 0 0 no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.block2__list li:nth-child(2)::before {
+	content: "";
+	background: url("../img/3.png") 0 0 no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.block2__list li:nth-child(3)::before {
+	content: "";
+	background: url("../img/4.png") 0 0 no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.block2__list li:last-child::before {
+	content: "";
+	background: url("../img/1.png") 0 0 no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.block2__list li::after {
+	content: "";
+	background: url("../img/5.png") 0 0 no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.block2__list li:nth-of-type(3) {
+	color: green;
+}
+.block2__list li:hover {
+	display: inline-block;
+	background: url("../img/11.png") 0 0 / cover no-repeat;
+	border-radius: 10px;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@font-face {
+  font-family: "Antique Olive";
+  src: url("../fonts/AntiqueOlive-Italic.woff2") format("woff2"),
+    url("../fonts/AntiqueOlive-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Antique Olive";
+  src: url("../fonts/AntiqueOlive-Bold.woff2") format("woff2"),
+    url("../fonts/AntiqueOlive-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Antique Olive";
+  src: url("../fonts/AntiqueOlive-Regular.woff2") format("woff2"),
+    url("../fonts/AntiqueOlive-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Academia Libera";
+  src: url("../fonts/AcademiaLibera.woff2") format("woff2"),
+    url("../fonts/AcademiaLibera.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+	font-family: "Antique Olive", sans-serif;
+	padding: 30px 0;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 60px;
+	color: rgb(71, 241, 247);
+	text-shadow: 1px 1px 10px blue, -1px -1px 10px blue
+}
+
+h2 {
+	font-family: "Academia Libera", serif;
+	font-size: 60px;
+	margin-bottom: 40px;
+	color: rgb(255, 240, 30);
+	text-shadow: 3px 4px 6px blue, -3px -4px 6px blue
+}
+
+p {
+	margin-bottom: 10px;
+	text-align: justify;
+	line-height: 1.2;
+	text-indent: 20px;
+}
+
+main {
+	margin: 0 50px 20px 50px;
+}
+
+img {
+	margin-bottom: 30px;
+}
+
+footer {
+	text-align: center;
+}
+
+.topwaterfall {
+	margin: 0 0 20px 100px;
+}
+
+.topwaterfall a {
+	font-family: "Lobster", fantasy;
+	font-size: 50px;
+	color: blue;
+}
+
+.waterfall li {
+	margin: 0 0 20px 50px;
+}
+
+.waterfall {
+}
+
+.anhel .bold {
+	text-decoration: line-through;	
+}
+
+.victory .bold {
+	text-decoration: overline;
+}
+
+.bold {
+	font-weight: 900;
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.victory .text.italic {
+	font-size: 30px;	
+}
+
+.text {
+	font-size: 18px;
+}
+
+.italic {
+	font-style: italic;
+	font-weight: 700;
+	text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.527);	
+}
+
+.up {
+	text-transform: uppercase;
+	font-family: "Academia Libera";
+	font-weight: 700;
+	color: red;
+	text-decoration: underline;
+	letter-spacing: 5px;
+}
+
+.niagara {
+	width: 1000px;
+}
+
+.victory {
+	width: 1200px;
+	margin-left: 200px;
+}
+
+.victory,
+.niagara,
+.anhel {
+	margin-bottom: 30px;
+}
+

@@ -1,0 +1,51 @@
+.header {
+	color: green;
+}
+
+a {
+	color: rgb(252, 83, 5);
+}
+
+.link > a {
+	color: #000;
+}
+
+.link-content {
+	color: blue;
+}
+
+.part1 h2 {
+	color: red;
+}
+
+.part2 h2 {
+	color: chocolate;
+}
+
+.part3 h2 {
+	color: darkmagenta;
+}
+
+.part4 h2 {
+	color: darkorange;
+}
+
+.part5 h2 {
+	color: rgb(238, 171, 45);
+}
+
+span {
+	color: blue;
+}
+
+h3 {
+	color: darkcyan;
+}
+
+.text {
+	color: darkgreen;
+}
+
+.footer {
+	color: fuchsia;
+}

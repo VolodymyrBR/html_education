@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Shrikhand&display=swap');
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Bold.woff2') format('woff2'), url('../fonts/Lato-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit.woff2') format('woff2'), url('../fonts/Larsseit.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit-Bold.woff2') format('woff2'), url('../fonts/Larsseit-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Larsseit';
+	src: url('../fonts/Larsseit-Medium.woff2') format('woff2'), url('../fonts/Larsseit-Medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+body {
+	font-family: Lato;
+}
+
+.header {
+	font-weight: 700;
+	color: rgb(5, 41, 141);
+}
+
+.introduction {
+	font-weight: 400;
+	color: green;
+}
+
+.text {
+	color:darkslategray;
+}
+
+h2 {
+	font-weight: 700;
+	color: red;
+}
+
+a {
+	font-weight: 700;
+	color: fuchsia;
+}
+
+.text.goverla {
+	color: rgb(51, 255, 0);
+}
+
+#mountpetros .text {
+	color: rgb(195, 0, 255);
+	font-weight: 700;
+}
+
+footer {
+	font-weight: 700;
+	color: slateblue;
+}
+
+.mountain li {
+	font-family: Larsseit;
+	color: saddlebrown;
+	font-weight: 700;
+}
+
+.mountainpipivan .title {
+	color: maroon;
+}
