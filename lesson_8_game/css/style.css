@@ -1,0 +1,84 @@
+.game div:not(:first-child) {
+	visibility: hidden;
+}
+[class*="__block"] {
+	background-color: red;
+}
+.game__container {
+	width: 600px;
+	border: 1px solid rgb(7, 7, 7);
+	margin: 0 auto;
+	padding: 5px;
+	background-color: rgb(231, 247, 16);
+}
+.game__start {
+	padding-top: 15px;
+	font-style: 20px;
+	text-align: center;
+	width: 80px;
+	height: 50px;
+	background-color: red;
+	border-radius: 10px;
+}
+.game__start:hover {
+	background-color: rgb(167, 248, 6);
+	outline: 2px solid #000;
+}
+.game__block1 {
+	width: 30px;
+	height: 50px;
+	margin-left: 25px;
+}
+.game__block2 {
+	width: 385px;
+	height: 30px;
+	margin-left: 25px;
+}
+.game__block3 {
+	width: 30px;
+	height: 210px;
+	margin-left: 380px;
+}
+.game__block4 {
+	width: 210px;
+	height: 30px;
+	margin-left: 200px;
+}
+.game__block5 {
+	width: 30px;
+	height: 60px;
+	margin-left: 200px;
+}
+.game__block6 {
+	width: 310px;
+	height: 30px;
+	margin-left: 200px;
+}
+.game__block7 {
+	width: 30px;
+	height: 140px;
+	margin-left: 480px;
+}
+.game__block8 {
+	width: 410px;
+	height: 30px;
+	margin-left: 100px;
+}
+.game__block9 {
+	padding-top: 40px;
+	font-size: 20px;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	margin: -65px 0 0 35px;
+	border-radius: 10px;
+}
+
+.game div:hover + div,
+.game div:hover {
+	visibility: visible;
+}
+.game__block9:hover {
+	background-color: rgb(167, 248, 6);
+	outline: 2px solid #000;
+}
