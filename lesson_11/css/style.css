@@ -1,0 +1,256 @@
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	padding: 50px;
+}
+
+.position {
+	background-color: rgb(230, 223, 223);
+	padding: 50px;
+	height: 1500px;
+}
+
+.position__container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.position__blocks {
+	border: 1px solid #000;
+	padding: 80px;
+	position: relative;
+	overflow: hidden;
+}
+
+.position__block {
+	padding: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+}
+
+.position__block--red {
+	background-color: red;
+	position: relative;
+	bottom: 20px;
+	left: 20px;
+}
+
+.position__block--green {
+	background-color: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.position__block--orange {
+	background-color: orange;
+	position: relative;
+	top: 20px;
+	right: 30px;
+	z-index: 10;
+}
+
+.position__block--blue {
+	background-color: blue;
+	position: relative;
+	left: 20%;
+}
+
+.position__block--fuchsia {
+	background-color: fuchsia;
+	position: fixed;
+	width: 100%;
+	top: 5px;
+	left: 0;
+}
+
+.position__block--brown {
+	background-color: brown;
+	position: relative;
+	top: 100px;
+	left: -200px;
+}
+
+/*===================================================================*/
+
+.wrap {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	background: url('/img/city-and.jpg') 0 0 / 100% no-repeat;
+}
+
+.car {
+	padding: 200px;
+	position: relative;
+	top: 540px;
+	left: 50px;
+}
+
+
+.car__container {
+	margin: 0 auto;
+}
+
+.cab {
+	position: relative;
+	left: 100px;
+}
+
+.cab__cab {
+	width: 160px;
+	height: 150px;
+	border-radius: 29px 0px 0px 48px / 63px 1px 0px 0px;
+	background-color: red;
+}
+
+.cab__door {
+	width: 75px;
+	height: 120px;
+	border: 1px solid #000;
+	border-radius: 29px 0px 0px 48px / 63px 1px 0px 0px;
+	background-color: red;
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+
+.cab__window {
+	width: 65px;
+	height: 50px;
+	border-radius: 29px 0px 0px 48px / 63px 1px 0px 0px;
+	background-color: blue;
+	position: relative;
+	bottom: 100px;
+	left: 20px;
+}
+
+.cab__window-two {
+	width: 65px;
+	height: 50px;
+	border-radius: 0px 0px 97px 48px / 0px 1px 64px 0px;
+	background-color: rgb(0, 0, 7);
+	position: relative;
+	bottom: 150px;
+	left: 85px;
+}
+
+.cab__wheel {
+	position: relative;
+	bottom: 105px;
+	left: 60px;
+}
+
+.whell {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #000;
+}
+
+.cab__disc {
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+
+.disc {
+	width: 40px;
+	height: 40px;
+	background-color: rgb(173, 165, 165);
+	border-radius: 50%;
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+
+.frame {
+	position: relative;
+	left: 260px;
+	bottom: 30px;
+}
+
+.frame__frame {
+	width: 160px;
+	height: 30px;
+	background-color: red;
+}
+
+.frame__whell {
+	position: relative;
+	left: 120px;
+	bottom: 35px;
+	z-index: 10;
+}
+
+
+.barrel {
+	position: relative;
+	bottom: 300px;
+	left: 300px;
+}
+
+.barrel:active {
+	left: 400px;
+}
+
+.barrel__barrel {
+	width: 600px;
+	height: 150px;
+	border-radius: 25px 25px 25px 25px / 70px 70px 70px 70px;
+	background-color: rgb(235, 252, 4);
+}
+
+.barrel__text {
+	position: relative;
+	top: 50px;
+	text-align: center;
+	opacity: 0;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: blue;
+}
+
+.barrel__text:hover {
+	opacity: 1;
+	transition: all 1s ease 0s;
+}
+
+.barrel__frame {
+	width: 470px;
+	height: 20px;
+	background-color: #000;
+	position: relative;
+	left: 70px;
+}
+
+.barrel__support {
+	width: 20px;
+	height: 70px;
+	background-color: #000;
+	position: relative;
+	top: 15px;
+	left: 35px;
+}
+
+.barrel__whells {
+	position: relative;
+	left: 300px;
+}
+
+.barrel__whell-two {
+	position: relative;
+	bottom: 70px;
+	left: 80px;
+}
+
+.barrel__whell-three {
+	position: relative;
+	bottom: 140px;
+	left: 160px;
+}
