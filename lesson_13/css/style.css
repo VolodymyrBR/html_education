@@ -393,7 +393,7 @@ a:active {
 	0% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(1, 1, 1, 0);
+		transform: rotate3d(1, 1, 1, 0deg);
 	}
 
 	50% {
@@ -405,7 +405,7 @@ a:active {
 	100% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(1, 1, 1, 0);
+		transform: rotate3d(1, 1, 1, 0deg);
 	}
 }
 
@@ -504,7 +504,7 @@ a:active {
 	0% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(1, 1, 1, 0);
+		transform: rotate3d(1, 1, 1, 0deg);
 	}
 
 	50% {
@@ -516,7 +516,7 @@ a:active {
 	100% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(1, 1, 1, 0);
+		transform: rotate3d(1, 1, 1, 0deg);
 	}
 }
 
@@ -571,7 +571,7 @@ a:active {
 	0% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(1, 1, 1, 0);
+		transform: rotate3d(1, 1, 1, 0deg);
 	}
 
 	50% {
@@ -583,7 +583,7 @@ a:active {
 	100% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(1, 1, 1, 0);
+		transform: rotate3d(1, 1, 1, 0deg);
 	}
 }
 
@@ -639,7 +639,7 @@ a:active {
 	0% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(1, 1, 1, 0);
+		transform: rotate3d(1, 1, 1, 0deg);
 	}
 
 	50% {
@@ -651,7 +651,7 @@ a:active {
 	100% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(1, 1, 1, 0);
+		transform: rotate3d(1, 1, 1, 0deg);
 	}
 }
 
