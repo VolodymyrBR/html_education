@@ -39,7 +39,7 @@ span,
 a {
 	position: relative;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-style: 20px;
+	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #0854f8;
@@ -393,19 +393,19 @@ a:active {
 	0% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(0, 0, 0, 0);
+		transform: rotate3d(1, 1, 1, 0);
 	}
 
 	50% {
 		margin-bottom: 15px;
 		background-color: #d808d8;
-		transform: rotate3d(2, 5, 6, 40deg);
+		transform: rotate3d(7, 5, 6, 60deg);
 	}
 
 	100% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		ttransform: rotate3d(0, 0, 0, 0);
+		transform: rotate3d(1, 1, 1, 0);
 	}
 }
 
@@ -504,19 +504,19 @@ a:active {
 	0% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(0, 0, 0, 0);
+		transform: rotate3d(1, 1, 1, 0);
 	}
 
 	50% {
 		margin-bottom: 15px;
 		background-color: #d808d8;
-		transform: rotate3d(2, 5, 6, 40deg);
+		transform: rotate3d(7, 5, 6, -60deg);
 	}
 
 	100% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(0, 0, 0, 0);
+		transform: rotate3d(1, 1, 1, 0);
 	}
 }
 
@@ -571,19 +571,19 @@ a:active {
 	0% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(0, 0, 0, 0);
+		transform: rotate3d(1, 1, 1, 0);
 	}
 
 	50% {
 		margin-bottom: 15px;
 		background-color: #f808d8;
-		transform: rotate3d(2, 5, 6, 40deg);
+		transform: rotate3d(7, 5, 6, -60deg);
 	}
 
 	100% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(0, 0, 0, 0);
+		transform: rotate3d(1, 1, 1, 0);
 	}
 }
 
@@ -639,19 +639,19 @@ a:active {
 	0% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(0, 0, 0, 0);
+		transform: rotate3d(1, 1, 1, 0);
 	}
 
 	50% {
 		margin-bottom: 15px;
 		background-color: #f808d8;
-		transform: rotate3d(2, 5, 6, 40deg);
+		transform: rotate3d(7, 5, 6, 60deg);
 	}
 
 	100% {
 		margin-bottom: 5px;
 		background-color: #f808f8;
-		transform: rotate3d(0, 0, 0, 0);
+		transform: rotate3d(1, 1, 1, 0);
 	}
 }
 
