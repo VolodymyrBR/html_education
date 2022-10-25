@@ -20,7 +20,6 @@ main {
 	margin-bottom: 20px;
 }
 
-.header__container {}
 
 .header__menu {
 	display: flex;
@@ -56,7 +55,6 @@ main {
 	color: rgb(61, 115, 231);
 }
 
-.item {}
 
 .simulator {
 	background-color: slategrey;
@@ -124,14 +122,14 @@ main {
 	display: flex;
 	margin: 0 -5px;
 	margin-bottom: 20px;
-	transition: all 0.3s ease 0s;
+	transition: transform 0.3s ease 0s;
 }
 
 .card:nth-child(1) {
 	transform: translateX(-1000px);
 	animation-name: child1;
 	animation-duration: 1s;
-	animation-timing-function: all;
+	animation-timing-function: ease;
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-play-state: running;
@@ -152,7 +150,7 @@ main {
 	transform: translateY(-2000px);
 	animation-name: child2;
 	animation-duration: 1s;
-	animation-timing-function: all;
+	animation-timing-function: ease;
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-play-state: running;
@@ -173,7 +171,7 @@ main {
 	transform: translateX(1000px);
 	animation-name: child3;
 	animation-duration: 1s;
-	animation-timing-function: all;
+	animation-timing-function: ease;
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-play-state: running;
@@ -213,7 +211,7 @@ main {
 	transform: translateY(-2000px);
 	animation-name: h2;
 	animation-duration: 1s;
-	animation-timing-function: all;
+	animation-timing-function: ease;
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-play-state: running;
@@ -235,7 +233,7 @@ main {
 	transform: translateY(-2000px);
 	animation-name: img;
 	animation-duration: 1s;
-	animation-timing-function: all;
+	animation-timing-function: ease;
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-play-state: running;
@@ -257,7 +255,7 @@ main {
 	transform: translateY(-2000px);
 	animation-name: text;
 	animation-duration: 1s;
-	animation-timing-function: all;
+	animation-timing-function: ease;
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-play-state: running;
@@ -279,7 +277,7 @@ main {
 	transform: translateY(-2000px);
 	animation-name: link;
 	animation-duration: 1s;
-	animation-timing-function: all;
+	animation-timing-function: ease;
 	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-play-state: running;
