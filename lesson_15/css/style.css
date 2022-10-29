@@ -94,8 +94,14 @@ body {
 /*======================================*/
 
 .createx {
+	position: relative;
 	padding: 200px 0px 0px 0px;
 	background: linear-gradient(55.95deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
+}
+
+.createx__container {
+	position: relative;
+	z-index: 2;
 }
 
 .createx__column {
@@ -206,6 +212,7 @@ body {
 .content__action {
 	display: flex;
 	gap: 24px;
+	flex-wrap: wrap;
 }
 
 /*======================================*/
@@ -218,6 +225,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 80px 0;
+	flex-wrap: wrap;
 }
 
 .progress__description {
@@ -317,6 +325,11 @@ body {
 	position: relative;
 }
 
+.why__container {
+	position: relative;
+	z-index: 2;
+}
+
 .why__content {
 	display: flex;
 	align-items: center;
@@ -351,7 +364,7 @@ body {
 	margin-bottom: 40px;
 }
 
-.items__title:hover {
+.items__title:focus {
 	color: #c7231d;
 }
 
@@ -373,10 +386,11 @@ body {
 	width: 16px;
 	height: 16px;
 	margin-top: 6px;
+	transition: transform 0.3s ease 0s;
 }
 
-.items__item li:hover {
-	color: #c7231d;
+.items__item li:hover::before {
+	transform: scale(1.2);
 }
 
 .items__item li:not(:last-child) {
@@ -409,4 +423,21 @@ body {
 	height: 287px;
 	top: 46%;
 	left: 93.5%;
+}
+
+.buttons {
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	color: #FF3F3A;
+	line-height: 20px;
+	background: inherit;
+	border: 2px solid #FF3F3A;
+	border-radius: 4px;
+	padding: 16px 40px;
+	display: inline-block;
+}
+
+.buttons:hover {
+	background: #FF3F3A;
+	color: white;
 }
