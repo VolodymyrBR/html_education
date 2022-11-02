@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+
+				<div class="form__text">
+
+					<div class="form__line">
+						<label class="form__label" for="login">Your login</label>
+						<input class="form__input" id="login" type="text" name="login" placeholder="Login" required
+							autocomplete="off">
+					</div>
+
+					<div class="form__line">
+						<label class="form__label" for="email">E-mail</label>
+						<input class="form__input" type="email" name="e-mail" id="email" placeholder="E-mail" required
+							autocomplete="off">
+					</div>
+
+					<div class="form__line">
+						<label class="form__label" for="phone">Phone</label>
+						<input class="form__input" type="tel" name="phone" id="phone" placeholder="+38 000 000 00 00" required
+							autocomplete="off">
+					</div>
+
+					<div class="form__line">
+						<label class="form__label" for="password">Password</label>
+						<input class="form__input" type="password" name="password" id="password" placeholder="Enter password"
+							required autocomplete="off">
+					</div>
+
+					<div class="form__line">
+						<label class="form__label" for="date">Date</label>
+						<input class="form__input" type="date" name="date" id="date" required autocomplete="off">
+					</div>
+
+					<div class="form__line">
+						<label class="form__label" for="search">Search</label>
+						<input class="form__input" type="search" name="search" id="search" placeholder="Enter world">
+					</div>
+
+					<div class="form__line">
+						<label class="form__label" for="note">Your note</label>
+						<textarea class="form__area" name="note" id="note" cols="30" rows="4" placeholder="your note" required
+							autocomplete="off"></textarea>
+					</div>
+
+				</div>
+
+				<div class="form__line">
+					<input class="form__input" type="range" name="range">
+				</div>
+
+				<div class="form__line">
+					<div class="form__title">Your age</div>
+					<div class="form__input-radio">
+						<input class="form__input form__input--radio" type="radio" name="age" id="age-1" required
+							autocomplete="off" value="18-20">
+						<label lass="form__label" for="age-1">18-20</label>
+					</div>
+					<div class="form__radio">
+						<input class="form__input form__input--radio" type="radio" checked name="age" id="age-2" required
+							autocomplete="off" value="21-30">
+						<label lass="form__label" for="age-2">21-30</label>
+					</div>
+					<div class="form__radio">
+						<input class="form__input form__input--radio" type="radio" name="age" id="age-3" required
+							autocomplete="off" value="30-40">
+						<label lass="form__label" for="age-3">30-40</label>
+					</div>
+				</div>
+
+				<div class="form__line">
+					<div class="form__title">What languages do you know?</div>
+					<div class="form__chec">
+						<input class="form__input form__input--checkbox" type="checkbox" name="language" id="languag-1"
+							autocomplete="off" value="Ukrainian">
+						<label lass="form__label" for="language-1">Ukrainian</label>
+					</div>
+					<div class="form__chec">
+						<input class="form__input form__input--checkbox" type="checkbox" name="language" id="languag-2"
+							autocomplete="off" value="English">
+						<label lass="form__label" for="language-2">English</label>
+					</div>
+					<div class="form__chec">
+						<input class="form__input form__input--checkbox" type="checkbox" name="language" id="languag-3"
+							autocomplete="off" value="Polish">
+						<label lass="form__label" for="language-3">Polish</label>
+					</div>
+				</div>
+
+				<div class="form__line">
+					<input class="form__input" type="file" name="file" id="file">
+				</div>
+
+				<div class="form__line">
+					<label class="form__label" for="list">Your country</label>
+					<select class="form__input" name=" form__list" id="list">
+						<option value="Ukraine">Ukraine</option>
+						<option value="Poland">Poland</option>
+						<option value="France">France</option>
+						<option value="Germany">Germany</option>
+						<option value="Italy">Italy</option>
+					</select>
+				</div>
+
+				<div class="form__line">
+					<label class="form__label" for="color">Color</label>
+					<input class="form__color" type="color" name="color" id="color" required autocomplete="off"
+						value="#ffffff">
+				</div>
+
+				<div class="form__line">
+					<button class="form__button" type="submit">Send</button>
+					<a href="maket.html">MAKET</a>
+				</div>
+
+			</form>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>

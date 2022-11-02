@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/maket.css">
+	<title>lesson 16 Maket</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">About Us</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Courses</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Events</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Blog</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__action action">
+					<a href="" class="action__button button"><span>Get consultation</span></a>
+					<a href="" class="action__login">Log in / Register</a>
+				</div>
+			</div>
+		</header>
+		<main class="maket">
+			<div class="maket__container">
+				<div class="maket__questions">
+					<div class="maket__image">
+						<img src="img/illustration.svg" alt="image">
+					</div>
+					<div class="maket__form-block form-block">
+						<div class="form-block__subtitle">Any questions?</div>
+						<h2 class="form-block__title">Drop us a line</h2>
+						<form class="form-block__form form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+
+							<div class="form__row">
+								<div class="form__line">
+									<label class="form__label" for="form-name">First Name*</label>
+									<input class=" form__input form__input--width" type=" text" name="form-name" id="form-name"
+										placeholder="Your first name" required autocomplete="off">
+								</div>
+								<div class="form__line">
+									<label class="form__label" for="form-lastname">Last Name*</label>
+									<input class="form__input form__input--width" type="text" name="form-lastname"
+										id="form-lastname" placeholder="Your last name" required autocomplete="off">
+								</div>
+							</div>
+
+							<div class="form__row">
+								<div class="form__line">
+									<label class="form__label" for="form-mail">Email*</label>
+									<input class="form__input form__input--width" type="email" name="form-mail" id="form-mail"
+										placeholder="Your working email" required autocomplete="off">
+								</div>
+								<div class="form__line">
+									<label class="form__label" for="form-tel">Phone</label>
+									<input class="form__input form__input--width" type="tel" name="form-tel" id="form-tel"
+										placeholder="Your phone number" autocomplete="off">
+								</div>
+							</div>
+
+							<div class="form__row form__row--area">
+								<div class="form__line">
+									<label class="form__label" for="form-message">Message*</label>
+									<textarea class="form__input form__input--width" name="form-message" id="form-message"
+										placeholder="Your message" required autocomplete="off"></textarea>
+								</div>
+							</div>
+
+							<div class="form__row">
+								<div class=" form__option">
+									<div class="form__radio-block">
+										<h5>Your gender</h5>
+										<div class="form__radio-line">
+											<input class="form__input-radio" type="radio" name="form-radio" checked
+												id="form-radio-1" value="woman">
+											<label class="form__label-radio" for="form-radio-1">woman</label>
+										</div>
+										<div class="form__radio-line">
+											<input class="form__input-radio" type="radio" name="form-radio" id="form-radio-2"
+												value="man">
+											<label class="form__label-radio" for="form-radio-2">man</label>
+										</div>
+									</div>
+									<div class="form__check-block">
+										<input class="form__input-check" type="checkbox" name="form-check" id="form-check"
+											required>
+										<label class="form__label-check" for="form-check">
+											I agree to receive
+											communications from Createx Online School
+										</label>
+									</div>
+								</div>
+								<div class="form__button">
+									<button class="button button--form" type="submit"><span>Send message</span>
+									</button>
+								</div>
+							</div>
+
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
