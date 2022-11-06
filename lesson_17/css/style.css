@@ -627,7 +627,7 @@ body {
 }
 
 .card__content {
-	flex: 1 0 64.34%;
+	flex: 0 1 auto;
 	padding: 32px;
 }
 
@@ -684,6 +684,7 @@ body {
 	.courses__card {
 		flex: 0 0 100%;
 	}
+
 }
 
 @media (max-width: 425px) {
