@@ -601,7 +601,7 @@ body {
 
 .card__body {
 	display: flex;
-	flex: 1 1 auto;
+	flex: 0 1 auto;
 	height: 100%;
 	border: 1px solid #E5E8ED;
 	box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
@@ -609,7 +609,8 @@ body {
 }
 
 .card__photo {
-	flex: 0 0 35.66%;
+	flex: 0 0 214px;
+	min-height: 214px;
 	position: relative;
 }
 
@@ -620,7 +621,9 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	object-position: top;
 	border-radius: 4px 0px 0px 4px;
+
 }
 
 .card__content {
@@ -688,6 +691,10 @@ body {
 		flex-direction: column;
 		row-gap: 30px;
 		align-items: center;
+	}
+
+	.card__body {
+		flex-direction: column;
 	}
 
 	.content__courses-name {
