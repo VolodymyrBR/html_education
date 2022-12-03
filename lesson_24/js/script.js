@@ -1,8 +1,6 @@
 "use strict";
 
-console.log(`Домашнє завдання. 
-Функції в JAVASCRIPT. Стрілочні функції, рекурсія, планування: setTimeout и setInterval.
-`);
+console.log('Домашнє завдання. Функції в JAVASCRIPT. Стрілочні функції, рекурсія, планування: setTimeout и setInterval.');
 
 let showMassage;
 if (2 > 1) {
