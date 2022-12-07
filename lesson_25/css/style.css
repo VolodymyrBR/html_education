@@ -23,7 +23,6 @@
 
 .search__button {
 	position: relative;
-	background-color: rgba(20, 199, 223, 0.0);
 	background: url('../img/icon.png') center / 50px no-repeat;
 	border-radius: 50%;
 	width: 80px;
