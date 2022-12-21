@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221218181541">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221221210636">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,7 @@
 			</div>
 		</header>
 		<main class="page">
-			<div class="page__main-slider main-slider">
+			<section class="page__main-slider main-slider">
 				<div class="main-slider__container">
 					<!-- Оболочка слайдера -->
 					<div class="main-slider__slider swiper">
@@ -55,9 +55,9 @@
 										Sumatran Rhino's skin which is designed with an overlap effect on its strap to represent
 										Rhino's skin.
 									</div>
-									<a href="" class="slide-main__link">Discover</a>
+									<a href="" class="slide-main__link discover-link">Discover</a>
 									<div class="slide-main__action">
-										<button type="button" class="button button--cart-plus"><span class="_icon-cart-plus">Add
+										<button data-ripple type="button" class="button button--cart-plus"><span class="_icon-cart-plus">Add
 												to cart</span></button>
 										<button type="button" class="slide-main__btn opacity-button opacity-button--cicil">
 											<picture><source srcset="img/cicil.webp" type="image/webp"><img src="img/cicil.png" alt="cicil"></picture></button>
@@ -81,9 +81,9 @@
 										Sumatran Rhino's skin which is designed with an overlap effect on its strap to represent
 										Rhino's skin.
 									</div>
-									<a href="" class="slide-main__link">Discover</a>
+									<a href="" class="slide-main__link discover-link">Discover</a>
 									<div class="slide-main__action">
-										<button type="button" class="button button--cart-plus"><span class="_icon-cart-plus">Add
+										<button data-ripple type="button" class="button button--cart-plus"><span class="_icon-cart-plus">Add
 												to
 												cart</span></button>
 										<button type="button" class="slide-main__btn opacity-button opacity-button--cicil">
@@ -100,7 +100,111 @@
 				</div>
 				<!-- Если нужна навигация (влево/вправо) -->
 
-			</div>
+			</section>
+			<section data-watch data-watch-threshold="0.3" class="page__card card">
+				<div class="card__container">
+					<article class="card__body">
+						<h3 class="card__title">Luxurious <span>Eyewear</span></h3>
+						<div class="card__text">See the beauty of exotic world with the luxurious glasses</div>
+						<div class="card__content">
+							<a href="" class="card__link discover-link">Discover Now</a>
+							<div class="card__image">
+								<picture><source srcset="img/card/1.webp" type="image/webp"><img src="img/card/1.png" alt="image"></picture>
+							</div>
+						</div>
+					</article>
+					<article class="card__body">
+						<h3 class="card__title">Comfortable <span>Watches</span></h3>
+						<div class="card__text">Feels the balancing function and beauty in our wooden watches</div>
+						<div class="card__content">
+							<a href="" class="card__link discover-link">Discover Now</a>
+							<div class="card__image">
+								<picture><source srcset="img/card/2.webp" type="image/webp"><img src="img/card/2.png" alt="image"></picture>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section class="page__monthly-deals monthly-deals">
+				<div class="monthly-deals__container">
+					<div class="monthly-deals__title title">Monthly Deals</div>
+					<div class="monthly-deals__items">
+						<div class="monthly-deals__item item-monthly-deals">
+							<div class="item-monthly-deals__image-ibg">
+								<picture><source srcset="img/monthly-deals/01.webp" type="image/webp"><img src="img/monthly-deals/01.jpg" alt="image"></picture>
+							</div>
+							<div class="item-monthly-deals__body">
+								<a href="" class="item-monthly-deals__title">Singo Maple</a>
+								<div class="item-monthly-deals__sale">20% Off</div>
+								<div class="item-monthly-deals__old-price">Rp 1.500.000</div>
+								<div class="item-monthly-deals__price">Rp 1.264.000</div>
+							</div>
+							<div class="item-monthly-deals__hidden">
+								<div class="item-monthly-deals__action">
+									<a href="" class="item-monthly-deals__favorite _icon-favorite"></a>
+									<button data-ripple type="submit" class="item-monthly-deals__button button">Add to
+										cart</button>
+								</div>
+							</div>
+						</div>
+						<div class="monthly-deals__item item-monthly-deals">
+							<div class="item-monthly-deals__image-ibg">
+								<picture><source srcset="img/monthly-deals/02.webp" type="image/webp"><img src="img/monthly-deals/02.jpg" alt="image"></picture>
+							</div>
+							<div class="item-monthly-deals__body">
+								<a href="" class="item-monthly-deals__title">Singo Ebony</a>
+								<div class="item-monthly-deals__sale">20% Off</div>
+								<div class="item-monthly-deals__old-price">Rp 1.500.000</div>
+								<div class="item-monthly-deals__price">Rp 1.264.000</div>
+							</div>
+							<div class="item-monthly-deals__hidden">
+								<div class="item-monthly-deals__action">
+									<a href="" class="item-monthly-deals__favorite _icon-favorite"></a>
+									<button data-ripple type="submit" class="item-monthly-deals__button button">Add to
+										cart</button>
+								</div>
+							</div>
+						</div>
+						<div class="monthly-deals__item item-monthly-deals">
+							<div class="item-monthly-deals__image-ibg">
+								<picture><source srcset="img/monthly-deals/03.webp" type="image/webp"><img src="img/monthly-deals/03.jpg" alt="image"></picture>
+							</div>
+							<div class="item-monthly-deals__body">
+								<a href="" class="item-monthly-deals__title">Rakai Ebony</a>
+								<div class="item-monthly-deals__sale">15% Off</div>
+								<div class="item-monthly-deals__old-price">Rp 1.280.000</div>
+								<div class="item-monthly-deals__price">Rp 1.118.000</div>
+							</div>
+							<div class="item-monthly-deals__hidden">
+								<div class="item-monthly-deals__action">
+									<a href="" class="item-monthly-deals__favorite _icon-favorite"></a>
+									<button data-ripple type="submit" class="item-monthly-deals__button button">Add to
+										cart</button>
+								</div>
+							</div>
+						</div>
+						<div class="monthly-deals__item item-monthly-deals">
+							<div class="item-monthly-deals__image-ibg">
+								<picture><source srcset="img/monthly-deals/04.webp" type="image/webp"><img src="img/monthly-deals/04.jpg" alt="image"></picture>
+							</div>
+							<div class="item-monthly-deals__body">
+								<a href="" class="item-monthly-deals__title">Way Kambas Mini Maple</a>
+								<div class="item-monthly-deals__sale">10% Off</div>
+								<div class="item-monthly-deals__old-price">Rp 1.280.000</div>
+								<div class="item-monthly-deals__price">Rp 1.024.000</div>
+							</div>
+							<div class="item-monthly-deals__hidden">
+								<div class="item-monthly-deals__action">
+									<a href="" class="item-monthly-deals__favorite _icon-favorite"></a>
+									<button data-ripple type="submit" class="item-monthly-deals__button button">Add to
+										cart</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
 	</div>
 	</div>
 	</main>
@@ -192,7 +296,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20221218181541"></script>
+	<script src="js/app.min.js?_v=20221221210636"></script>
 </body>
 
 </html>
