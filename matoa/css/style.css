@@ -1473,13 +1473,6 @@ body::after {
   }
 }
 
-@media (max-width: 35em) {
-  .monthly-deals__items {
-    -ms-grid-columns: (1fr)[1];
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
 @media (max-width: 25em) {
   .header__logo {
     max-width: 8.75rem;
@@ -1745,6 +1738,11 @@ body::after {
 
   .card__body {
     padding: 0.9375rem;
+  }
+
+  .monthly-deals__items {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
