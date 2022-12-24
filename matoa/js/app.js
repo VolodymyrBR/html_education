@@ -3892,6 +3892,20 @@
             },
             on: {}
         });
+        if (document.querySelector(".testimonial__slider")) new core(".testimonial__slider", {
+            modules: [ Navigation ],
+            observer: true,
+            observeParents: true,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            autoHeight: true,
+            speed: 800,
+            navigation: {
+                prevEl: ".testimonial__prev",
+                nextEl: ".testimonial__next"
+            },
+            on: {}
+        });
     }
     window.addEventListener("load", (function(e) {
         initSliders();
