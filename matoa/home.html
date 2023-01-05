@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221224231435">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230105224846">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
 				<div class="header__action action-header">
 					<a data-popup="#search" href="" class="action-header__search _icon-search"></a>
 					<a data-da=".menu__list, 400, " href="" class="action-header__login _icon-user">Log In</a>
-					<a href="" class="action-header__cart _icon-cart"></a>
+					<a data-popup="#product" href="" class="action-header__cart _icon-cart"><span></span></a>
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 				</div>
 			</div>
@@ -541,7 +541,102 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20221224231435"></script>
+
+
+	<div id="product" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content content-product">
+				<form action="#" method="get" class="product-form">
+					<article class="product-form__card card-product">
+						<a href="#" class="card-product__image">
+							<picture><source srcset="img/popup/01.webp" type="image/webp"><img src="img/popup/01.png" alt="image"></picture>
+						</a>
+						<div class="card-product__info-card">
+							<h3 class="info-card__name">Way Kambas Mini Ebony</h3>
+							<div class="info-card__old-price old-price">Rp 1.280.000</div>
+							<div class="info-card__price">Rp 1.024.000</div>
+							<div class="info-card__engrave">Custom Engrave</div>
+							<div class="info-card__label">“Happy | Birthday | from”</div>
+						</div>
+						<div class="card-product__action action-card">
+							<div class="action-card__select">
+								<div class="action-card__header">Select Packaging</div>
+								<select name="form[]" data-class-modif="form">
+									<option value="1" selected>Default Packaging (Free)</option>
+									<option value="2">Wooden Packaging (Rp 50.000)</option>
+									<option value="3">Wooden Packaging (Rp 40.000)</option>
+									<option value="4">Wooden Packaging (Rp 30.000)</option>
+								</select>
+							</div>
+							<div class="action-card__quant">
+								<div data-quantity class="action-card__quantity quantity">
+									<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+									<div class="quantity__input">
+										<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+								</div>
+								<div class="action-card__price">Rp 1.024.000</div>
+								<button type="button" class="action-card__delete _icon-delete"></button>
+							</div>
+						</div>
+					</article>
+					<article class="product-form__card card-product">
+						<a href="#" class="card-product__image">
+							<picture><source srcset="img/popup/02.webp" type="image/webp"><img src="img/popup/02.png" alt="image"></picture>
+						</a>
+						<div class="card-product__info-card">
+							<h3 class="info-card__name">Sikka (Ebony & Maple)</h3>
+							<div class="info-card__price">Rp 1.264.000</div>
+						</div>
+						<div class="card-product__action action-card">
+							<div class="action-card__select">
+								<div class="action-card__header">Select Packaging</div>
+								<select name="form[]" data-class-modif="form">
+									<option value="1" selected>Default Packaging (Free)</option>
+									<option value="2">Wooden Packaging (Rp 50.000)</option>
+									<option value="3">Wooden Packaging (Rp 40.000)</option>
+									<option value="4">Wooden Packaging (Rp 30.000)</option>
+								</select>
+							</div>
+							<div class="action-card__quant">
+								<div data-quantity class="action-card__quantity quantity">
+									<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+									<div class="quantity__input">
+										<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+								</div>
+								<div class="action-card__price">Rp 1.264.000</div>
+								<button type="button" class="action-card__delete _icon-delete"></button>
+							</div>
+						</div>
+					</article>
+					<div class="product-form__total-line total-line">
+						<div class="total-line__promo promo-line">
+							<div class="promo-line__title">Kode Promo</div>
+							<div class="promo-line__input">
+								<input autocomplete="off" type="text" name="form[]" placeholder="INDONESIA" class="input">
+							</div>
+							<div class="promo-line__value">35% OFF</div>
+						</div>
+						<div class="total-line__price price-line">
+							<div class="price-line__title">Total</div>
+							<div class="price-line__price-block">
+								<div class="price-line__old-price old-price">Rp 3.312.000</div>
+								<div class="price-line__total-price">Rp 2.152.000</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-form__btn">
+						<button type="submit" class="product-form__button button button--big">Checkout</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230105224846"></script>
+
 </body>
 
 </html>

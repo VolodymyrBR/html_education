@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CheckOut</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230105224846">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<div class="header__logo">
+					<a href="#"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture></a>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Watches</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Eyewear</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Accessories</a></li>
+							<li class="menu__item"><a href="" class="menu__link">News</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__action action-header">
+					<a data-popup="#search" href="" class="action-header__search _icon-search"></a>
+					<a data-da=".menu__list, 400, " href="" class="action-header__login _icon-user">Log In</a>
+					<a data-popup="#product" href="" class="action-header__cart _icon-cart"><span></span></a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="checkout">
+			<div class="checkout__stage stage-checkout">
+				<div class="stage-checkout__container">
+					<div class="stage-checkout__icon _icon-checkout">1. Checkout</div>
+					<div class="stage-checkout__decor"></div>
+					<div class="stage-checkout__icon _icon-payment">2. Payment</div>
+					<div class="stage-checkout__decor"></div>
+					<div class="stage-checkout__icon _icon-confirm">3. Confirmation</div>
+				</div>
+			</div>
+			<section class="checkout__field field-checkout">
+				<div class="field-checkout__container">
+					<div class="field-checkout__order order-field">
+						<h3 class="order-field__title title-check">Detail Order</h3>
+						<div class="order-field__body">
+							<div class="order-field__label">Subtotal</div>
+							<div class="order-field__value">Rp 2.152.000</div>
+							<div class="order-field__label">Shipping Cost</div>
+							<div class="order-field__value">Rp 500.000</div>
+							<div class="order-field__label">Promo Code</div>
+							<div class="order-field__value">INDONESIA</div>
+							<div class="order-field__label">Packaging</div>
+							<div class="order-field__value">Rp 50.000</div>
+						</div>
+						<div class="order-field__total-line">
+							<div class="order-field__total">Grand Total</div>
+							<div class="order-field__sum">Rp 2.702.000</div>
+						</div>
+					</div>
+					<form action="#" method="GET" class="field-checkout__billing billing-field">
+						<div class="billing-field__content">
+							<div class="billing-field__title title-check">Billing Address</div>
+							<div class="billing-field__body body-billing">
+								<label for="name" class="body-billing__line">Fullname
+									<input type="text" name="name" id="name" placeholder="Ex: Rasyidin Arsyad Nasution" required autocomplete="off">
+								</label>
+								<label for="email" class="body-billing__line">Email Address
+									<input type="email" name="email" id="email" required autocomplete="off" placeholder="Ex: rasyid.arsyad@gmail.com">
+								</label>
+								<label for="tel" class="body-billing__line">Phone Number
+									<input type="tel" name="tel" id="tel" required autocomplete="off" placeholder="Ex: 089111888999">
+								</label>
+								<label for="adress" class="body-billing__line">Shipping Address
+									<input type="text" name="adress" id="adress" required autocomplete="off" placeholder="Ex: Patriot Street Number 666, Ngaklik, Sleman">
+								</label>
+								<label for="" class="body-billing__line">Country
+									<select class="body-billing__select" name="country" data-class-modif="form">
+										<option value="1" selected>United State of America (USA)</option>
+										<option value="2">United State of America (USA)</option>
+										<option value="3">Canada</option>
+										<option value="4">Ukraine</option>
+									</select>
+								</label>
+								<label for="" class="body-billing__line">State/Province
+									<select class="body-billing__select" name="state" data-class-modif="form">
+										<option value="1" selected>California</option>
+										<option value="2">California</option>
+										<option value="3">New York</option>
+										<option value="4">Virginia</option>
+									</select>
+								</label>
+								<label for="" class="body-billing__line body-billing__line--small">City
+									<select class="body-billing__select" name="city" data-class-modif="form">
+										<option value="1" selected>San Francisco</option>
+										<option value="2">San Francisco</option>
+										<option value="3">New York</option>
+										<option value="4">Washington</option>
+									</select>
+								</label>
+								<label for="code" class="body-billing__line body-billing__line--small">Zip Code
+									<input type="text" name="code" id="code" required autocomplete="off" placeholder="Ex: 94024">
+								</label>
+								<label for="" class="body-billing__line">Choose Courier
+									<select class="body-billing__select" name="form[]" data-class-modif="form">
+										<option value="1" selected>DHL</option>
+										<option value="2">DHL</option>
+										<option value="3">New Post</option>
+										<option value="4">SAT</option>
+									</select>
+								</label>
+							</div>
+						</div>
+						<div class="billing-field__btn">
+							<button type="btn" class="opacity-button ">Continue Shopping</button>
+							<button type="submit" class="button button--h61">Place My Order</button>
+						</div>
+					</form>
+				</div>
+			</section>
+			<div class="checkout__partners partners">
+				<div class="partners__container">
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/01.webp" type="image/webp"><img src="img/partners/01.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/02.webp" type="image/webp"><img src="img/partners/02.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/03.webp" type="image/webp"><img src="img/partners/03.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/04.webp" type="image/webp"><img src="img/partners/04.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/05.webp" type="image/webp"><img src="img/partners/05.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/06.webp" type="image/webp"><img src="img/partners/06.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/07.webp" type="image/webp"><img src="img/partners/07.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/08.webp" type="image/webp"><img src="img/partners/08.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/09.webp" type="image/webp"><img src="img/partners/09.png" alt="icon"></picture>
+					</div>
+					<div class="partners__icon">
+						<picture><source srcset="img/partners/10.webp" type="image/webp"><img src="img/partners/10.png" alt="icon"></picture>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div data-spollers="768, max" class="footer__container">
+				<div class="footer__column">
+					<a href="" class="footer__logo">
+						<picture><source srcset="img/footer/logo.webp" type="image/webp"><img src="img/footer/logo.png" alt="logo"></picture>
+					</a>
+					<div class="footer__block">
+						<div class="footer__label">
+							<h3 class="footer__title title-footer">Address</h3>
+							<div class="footer__text">
+								<p>Store & Office </p>
+								<p>Jl. Setrasari Kulon III, No. 10-12,</p>
+								<p>Sukarasa, Sukasari, Bandung, </p>
+								<p>Jawa Barat, Indonesia 40152</p>
+							</div>
+						</div>
+						<div class="footer__label">
+							<h3 class="footer__title title-footer">Office Hour</h3>
+							<div class="footer__text">
+								<p>Monday - Sunday </p>
+								<p>10.00 - 18.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__item title title--white _icon-select">Get in touch</button>
+					<div class="footer__contact-block">
+						<div class="footer__contact contact-footer">
+							<div class="contact-footer__label title-footer">Phone</div>
+							<a href="02220277564" class="contact-footer__value">0222-027-7564</a>
+							<div class="contact-footer__label title-footer">Service Center</div>
+							<a href="08112338899" class="contact-footer__value">0811-233-8899</a>
+							<div class="contact-footer__label title-footer">Customer Service</div>
+							<a href="08112359988" class="contact-footer__value">0811-235-9988</a>
+							<div class="footer__social">
+								<a href="" class="_icon-facebook"></a>
+								<a href="" class="_icon-instagram"></a>
+								<a href="" class="_icon-twitter"></a>
+								<a href="" class="_icon-youtube"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__item title title--white _icon-select">Useful Link</button>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Warranty & Complaints</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Order & Shipping</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Tracking Order</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Repair</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Terms</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">FAQ</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__item title title--white _icon-select">Useful Link</button>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Mengenal Arti Cukup</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Tell Your Difference</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Waykambas</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Rebrand</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Gallery</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Singo</a></li>
+							<li class="menu-footer__item"><a href="" class="menu-footer__link">Rakai</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+		<div id="search" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">X</button>
+					<form action="#" method="get" class="popup__form form">
+						<div class="form__line">
+							<input data-required autocomplete="off" type="text" name="form[]" data-error="Заповніть це поле" placeholder="Search" class="form__input">
+						</div>
+						<button type="submit" class="form__button button button--cart-plus _icon-search"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="product" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content content-product">
+					<form action="#" method="get" class="product-form">
+						<article class="product-form__card card-product">
+							<a href="#" class="card-product__image">
+								<picture><source srcset="img/popup/01.webp" type="image/webp"><img src="img/popup/01.png" alt="image"></picture>
+							</a>
+							<div class="card-product__info-card">
+								<h3 class="info-card__name">Way Kambas Mini Ebony</h3>
+								<div class="info-card__old-price old-price">Rp 1.280.000</div>
+								<div class="info-card__price">Rp 1.024.000</div>
+								<div class="info-card__engrave">Custom Engrave</div>
+								<div class="info-card__label">“Happy | Birthday | from”</div>
+							</div>
+							<div class="card-product__action action-card">
+								<div class="action-card__select">
+									<div class="action-card__header">Select Packaging</div>
+									<select name="form[]" data-class-modif="form">
+										<option value="1" selected>Default Packaging (Free)</option>
+										<option value="2">Wooden Packaging (Rp 50.000)</option>
+										<option value="3">Wooden Packaging (Rp 40.000)</option>
+										<option value="4">Wooden Packaging (Rp 30.000)</option>
+									</select>
+								</div>
+								<div class="action-card__quant">
+									<div data-quantity class="action-card__quantity quantity">
+										<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+									</div>
+									<div class="action-card__price">Rp 1.024.000</div>
+									<button type="button" class="action-card__delete _icon-delete"></button>
+								</div>
+							</div>
+						</article>
+						<article class="product-form__card card-product">
+							<a href="#" class="card-product__image">
+								<picture><source srcset="img/popup/02.webp" type="image/webp"><img src="img/popup/02.png" alt="image"></picture>
+							</a>
+							<div class="card-product__info-card">
+								<h3 class="info-card__name">Sikka (Ebony & Maple)</h3>
+								<div class="info-card__price">Rp 1.264.000</div>
+							</div>
+							<div class="card-product__action action-card">
+								<div class="action-card__select">
+									<div class="action-card__header">Select Packaging</div>
+									<select name="form[]" data-class-modif="form">
+										<option value="1" selected>Default Packaging (Free)</option>
+										<option value="2">Wooden Packaging (Rp 50.000)</option>
+										<option value="3">Wooden Packaging (Rp 40.000)</option>
+										<option value="4">Wooden Packaging (Rp 30.000)</option>
+									</select>
+								</div>
+								<div class="action-card__quant">
+									<div data-quantity class="action-card__quantity quantity">
+										<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+									</div>
+									<div class="action-card__price">Rp 1.264.000</div>
+									<button type="button" class="action-card__delete _icon-delete"></button>
+								</div>
+							</div>
+						</article>
+						<div class="product-form__total-line total-line">
+							<div class="total-line__promo promo-line">
+								<div class="promo-line__title">Kode Promo</div>
+								<div class="promo-line__input">
+									<input autocomplete="off" type="text" name="form[]" placeholder="INDONESIA" class="input">
+								</div>
+								<div class="promo-line__value">35% OFF</div>
+							</div>
+							<div class="total-line__price price-line">
+								<div class="price-line__title">Total</div>
+								<div class="price-line__price-block">
+									<div class="price-line__old-price old-price">Rp 3.312.000</div>
+									<div class="price-line__total-price">Rp 2.152.000</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-form__btn">
+							<button type="submit" class="product-form__button button button--big">Checkout</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/app.min.js?_v=20230105224846"></script>
+</body>
+
+</html>
